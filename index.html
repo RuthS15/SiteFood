@@ -229,26 +229,37 @@
     </section>
 
     <!-- Seção de Cardápio -->
-    <section id="menu" class="menu">
-        <div class="menu-item">
-            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/fc/7b/58/hamburguesa-de-pura-carne.jpg?w=900&h=500&s=1" alt="Hambúrguer Clássico">
-            <h3>Hambúrguer Clássico</h3>
-            <p>Um hambúrguer suculento com queijo e molho especial.</p>
-            <p class="price">R$ 19,90</p>
-        </div>
-        <div class="menu-item">
-            <img src="https://sommelier.com.pe/wp-content/uploads/Foto-Primos-Chicken-Bar.jpg" alt="Batatas Fritas">
-            <h3>Batatas Fritas</h3>
-            <p>Batatas crocantes e douradas, perfeitas para acompanhar.</p>
-            <p class="price">R$ 9,90</p>
-        </div>
-        <div class="menu-item">
-            <img src="https://img.pikbest.com/origin/10/13/93/63npIkbEsTbjB.jpg!w700wp" alt="Refrigerante">
-            <h3>Refrigerante</h3>
-            <p>Escolha entre vários sabores para refrescar o seu momento.</p>
-            <p class="price">R$ 7,50</p>
-        </div>
-    </section>
+<section id="menu" class="menu">
+    <div class="menu-item">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/fc/7b/58/hamburguesa-de-pura-carne.jpg?w=900&h=500&s=1" alt="Hambúrguer Clássico" class="menu-img">
+        <h3>Hambúrguer Clássico</h3>
+        <p>Um hambúrguer suculento com queijo e molho especial.</p>
+        <p class="price">R$ 19,90</p>
+    </div>
+    <div class="menu-item">
+        <img src="https://sommelier.com.pe/wp-content/uploads/Foto-Primos-Chicken-Bar.jpg" alt="Batatas Fritas" class="menu-img">
+        <h3>Batatas Fritas</h3>
+        <p>Batatas crocantes e douradas, perfeitas para acompanhar.</p>
+        <p class="price">R$ 9,90</p>
+    </div>
+    <div class="menu-item">
+        <img src="https://img.pikbest.com/origin/10/13/93/63npIkbEsTbjB.jpg!w700wp" alt="Refrigerante" class="menu-img">
+        <h3>Refrigerante</h3>
+        <p>Escolha entre vários sabores para refrescar o seu momento.</p>
+        <p class="price">R$ 7,50</p>
+    </div>
+</section>
+
+<style>
+    /* CSS para ajustar as imagens */
+    .menu-img {
+        width: 100%;  /* A imagem vai ocupar 100% da largura do contêiner */
+        height: 200px;  /* Definindo uma altura fixa para todas as imagens */
+        object-fit: cover; /* Faz com que a imagem cubra toda a área sem distorção */
+        border-radius: 10px; /* Bordas arredondadas para uma aparência mais suave */
+    }
+</style>
+
 
     <!-- Seção Sobre Nós -->
     <section id="about" class="about">
